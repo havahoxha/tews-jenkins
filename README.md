@@ -8,7 +8,7 @@ incrementing the patch version of the project.
 This version would usually have to be inferred from an artifactory where the build is pushed but since this is simply a PoC, we will infer it from the code
 itself and just increment it, save it and build the project.
 
-Sharing the jobs directory with the host machine in order to keep jobs build artifacts in version control. Otherwise, script declarations should be kept within their
+Sharing the jobs directory with the host machine in order to keep job configs in version control. Otherwise, script declarations should be kept within their
 respective repositories. In our case, example-flutter-project has its own Jenkinsfile.
 
 ## How to run
