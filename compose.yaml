@@ -1,0 +1,12 @@
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+     - 8080:8080
+     - 50000:50000
+    volumes:
+     - ./jobs:/var/jenkins_home/jobs
+     - /var/run/docker.sock:/var/run/docker.sock
+
