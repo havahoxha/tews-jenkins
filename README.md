@@ -33,5 +33,5 @@ The workflow creates a hierarchy of git repositories with different permission l
 git config --global --add safe.directory '*'
 ```
 
-This will probably not be an issue if we set a docker agent running a flutter image but for the moment being this could turn out to be a severe security issue. Thread carefully, gang!
+This will probably not be an issue if we set a docker agent running a flutter image but for the moment being this could turn out to be a severe security issue.
 
